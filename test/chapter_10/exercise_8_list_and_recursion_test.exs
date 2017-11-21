@@ -1,4 +1,4 @@
-defmodule Chapter10.Exrecise8ListAndRecursion do
+defmodule Chapter10.Exercise8ListAndRecursion do
   use ExUnit.Case
   @moduledoc """
 

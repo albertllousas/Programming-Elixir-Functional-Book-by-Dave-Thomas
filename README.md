@@ -4,7 +4,7 @@ Code in elixir to follow the book:
 
 Programming Elixir: Functional Book v1.3 (by Dave Thomas)
 
-Every chapter has its exercises and related code in test/ folder
+Every chapter has its sample codes and exercises and related code in test/chapter_X folder
 
 # some resources
 

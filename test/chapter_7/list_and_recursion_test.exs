@@ -63,8 +63,8 @@ defmodule Chapter7.ListsAndRecursionTest do
         but hidding the implementation in private functions" do
     defmodule List do
       def sum(list), do: _sum(list, 0)
-      def _sum([], total), do: total
-      def _sum([head | tail], total), do: _sum(tail, head + total)
+      defp _sum([], total), do: total
+      defp _sum([head | tail], total), do: _sum(tail, head + total)
     end
 
     assert List.sum([1, 2, 3]) == 6
